@@ -1,0 +1,18 @@
+.get-robots {
+
+    .get-robot-card {
+
+        .get-robot-card-head-img {
+
+            img {}
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .get-robots {}
+
+    .get-robots .get-robot-card .get-robot-card-head-img {}
+
+    .get-robots .get-robot-card {}
+}

@@ -1,0 +1,21 @@
+.hero-ys {
+
+    .card {
+
+        &:hover {}
+
+        img {}
+
+        .card-title {}
+    }
+
+    .card-grid {}
+}
+
+@media screen and (max-width: 768px) {
+    .hero-ys {}
+
+    .hero-ys .card-grid {}
+}
+
+@media screen and (max-width: 768px) {}

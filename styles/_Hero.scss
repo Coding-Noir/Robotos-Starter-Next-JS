@@ -1,0 +1,124 @@
+.hero-area {
+
+    .hero-container {}
+
+    .hero-text {
+
+        .hero-heading {
+
+            &:hover {}
+
+            &.h2 {
+
+                &:hover {}
+            }
+
+            &.h3 {
+
+                &:hover {}
+            }
+        }
+    }
+
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7,
+    .img8,
+    .img9,
+    .img10,
+    .img11 {}
+
+    .img1 {}
+
+    .img2 {}
+
+    .img3 {}
+
+    .img4 {}
+
+    .img5 {}
+
+    .img6 {}
+
+    .img7 {}
+
+    .img8 {}
+
+    .img9 {}
+
+    .img10 {}
+
+    .img11 {}
+
+    .button-container {}
+}
+
+@media screen and (max-width: 1900px) {
+
+    .hero-area .img2,
+    .hero-area .img8 {}
+
+    .hero-area .img1 {}
+
+    .hero-area .img3 {}
+
+    .hero-area .img4 {}
+
+    .hero-area .img5 {}
+}
+
+@media screen and (max-width: 1199px) {
+
+    .hero-area .img6,
+    .hero-area .img5,
+    .hero-area .img7 {}
+
+    .hero-area .img3 {}
+
+    .hero-area .img1 {}
+
+    .hero-area .img11 {}
+
+    .hero-area .img9 {}
+}
+
+
+@media screen and (max-width: 820px) {
+    .hero-area .img1 {}
+
+    .hero-area .img10 {}
+
+    .hero-area .img4 {}
+
+    .hero-area .img3 {}
+
+    .hero-area .hero-text .hero-heading {}
+}
+
+
+@media screen and (max-width: 600px) {
+    .hero-area .img11 {}
+
+    .hero-area .img9 {}
+
+    .hero-area .img1 {}
+
+    .hero-area .img4 {}
+
+    .hero-area .img3 {}
+
+    .hero-area .hero-text .hero-heading {}
+}
+
+@media screen and (max-width: 375px) {
+
+    .hero-area .img3,
+    .hero-area .img9 {}
+
+    .hero-area .img10 {}
+}

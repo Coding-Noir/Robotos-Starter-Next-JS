@@ -1,0 +1,76 @@
+.nav {
+
+    &.colorChange {}
+
+    .menu {}
+
+    .brand {
+
+        .logo-icon {}
+
+        .logo-text {}
+    }
+
+    .menu-list {}
+
+    .menu-list-item {
+
+        .menu-link {}
+
+        .nav-cta {
+
+            &:hover {}
+        }
+    }
+
+    .hamburger {
+
+        .line {}
+
+        .bar-one,
+        .bar-three {}
+
+        .bar-two {}
+    }
+}
+
+// Media Query screen
+@media (min-width: 769px) {
+    .mobile-nav {}
+
+    .nav .hamburger {}
+}
+
+@media (max-width: 768px) {
+    .desktop-nav {}
+
+    .nav .menu {}
+
+    .nav .brand {}
+
+    .nav .menu-list {
+
+        .menu-list-item {}
+    }
+}
+
+// Mobile Menu
+.mobile-open {
+
+
+    .nav .menu-list {
+
+        .menu-list-item {}
+    }
+
+    .nav .brand {}
+
+    .hamburger {
+        .line {}
+
+        .bar-one {}
+
+        .bar-three {}
+    }
+
+}

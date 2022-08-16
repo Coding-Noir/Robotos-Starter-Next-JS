@@ -1,0 +1,30 @@
+.rarity {
+    .rarity-card {}
+
+    .rarity-card-grid {
+
+        .rarity-types,
+        .rarity-variations {}
+    }
+
+    .rarity-title {}
+
+    .rarity-row {
+
+        .rarity-number {}
+
+        &:nth-child(even) {}
+    }
+
+    .type-img {}
+}
+
+@media screen and (max-width: 600px) {
+    .rarity {}
+
+    .rarity .rarity-card {}
+
+    .rarity .rarity-card-grid {}
+
+    .rarity .type-img {}
+}

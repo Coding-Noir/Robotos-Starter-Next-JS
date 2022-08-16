@@ -1,0 +1,26 @@
+.button-container {}
+
+.btn-prime {
+
+
+    &:hover {}
+
+    &.mint {
+
+        &:hover {}
+    }
+
+    &.pink {
+
+        &:hover {}
+    }
+
+    &.purple {
+
+        &:hover {}
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .btn-prime {}
+}

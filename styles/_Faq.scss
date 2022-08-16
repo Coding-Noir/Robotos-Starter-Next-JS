@@ -1,0 +1,40 @@
+.faq {
+
+    .faq-question {
+
+        &:last-child {}
+    }
+
+    .faq-question-img {}
+
+    .faq-question-title {}
+
+    .head-images {
+
+        .img-single {
+
+            &._1 {}
+
+            &._2 {}
+
+            &._3 {}
+        }
+
+        &.top {}
+
+        &.right {}
+
+        &.left {}
+    }
+}
+
+
+@media screen and (max-width: 1350px) {
+
+    .faq .head-images.right,
+    .faq .head-images.left {}
+}
+
+@media screen and (max-width: 600px) {
+    .faq .faq-question {}
+}

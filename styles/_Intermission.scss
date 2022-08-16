@@ -1,0 +1,11 @@
+.intermission {
+
+    .image-row {
+
+        &._2 {}
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .intermission {}
+}
